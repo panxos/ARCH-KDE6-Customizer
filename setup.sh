@@ -2155,22 +2155,21 @@ fi
     # Configurar reglas de ventanas para aplicaciones específicas
     local windowrules_file="$HOME/.config/kwinrulesrc"
     cat > "$windowrules_file" << EOF
-[1]
-Description=Configuración para Kitty
-above=false
-aboverule=2
-clientmachine=localhost
-clientmachinematch=0
-noborder=true
-noborderrule=2
-position=0,0
-positionrule=3
-size=800,600
-sizerule=3
-title=kitty
-titlematch=2
-wmclass=kitty
-wmclassmatch=1
+# [1]
+# Description=Configuración para Kitty
+# above=false
+# aboverule=2
+# clientmachine=localhost
+# clientmachinematch=0
+# noborderrule=2
+# position=0,0
+# positionrule=3
+# size=800,600
+# sizerule=3
+# title=kitty
+# titlematch=2
+# wmclass=kitty
+# wmclassmatch=1
 
 [2]
 Description=Configuración para Brave
@@ -2195,8 +2194,8 @@ wmclass=spectacle
 wmclassmatch=1
 
 [General]
-count=3
-rules=1,2,3
+count=2
+rules=2,3
 EOF
     
     # Configurar Plasma para mostrar segundos en el reloj
