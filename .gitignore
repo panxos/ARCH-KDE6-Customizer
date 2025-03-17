@@ -1,0 +1,22 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de usuario
+*.log
+*.swp
+
+# Directorios de entorno virtual
+venv/
+.env/
+
+# Archivos de IDE
+.vscode/
+.idea/
+
+# Archivos temporales
+*~
+*.tmp
+
+# Archivos específicos que no quieras compartir
+# Agrega aquí cualquier archivo sensible o local
